@@ -2,7 +2,10 @@
 #include <cstdlib>
 #include <cstdint>
 #include <cassert>
-#include "serialib.h"
+
+#define MINIAUDIO_IMPLEMENTATION
+#include <miniaudio.h>
+#include <serialib.h>
 
 serialib serial;
 uint16_t pads[16];
