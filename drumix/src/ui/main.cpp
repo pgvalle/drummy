@@ -17,7 +17,7 @@ int main() {
     while (!glfwWindowShouldClose(window)) {
         beginFrame();
 
-        ImGui::Begin("Hello, world!", nullptr, ImGuiWindowFlags_NoTitleBar);
+        ImGui::Begin("Hello, world!", nullptr, ImGuiWindowFlags_NoDecoration);
         ImGui::Text("This is some useful text.");
         ImGui::End();
 
